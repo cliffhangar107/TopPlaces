@@ -31,7 +31,27 @@
 		C7099EFC16ACEB960044252E /* FlickrPlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7099EFB16ACEB960044252E /* FlickrPlaceAnnotation.m */; };
 		C7099EFF16ACF9EE0044252E /* PhotosMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7099EFE16ACF9EE0044252E /* PhotosMapViewController.m */; };
 		C7099F0216ACFA270044252E /* FlickrPhotoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7099F0116ACFA270044252E /* FlickrPhotoAnnotation.m */; };
+		C7D6E49416C8B2C900ABB800 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6E49316C8B2C900ABB800 /* SenTestingKit.framework */; };
+		C7D6E49516C8B2C900ABB800 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7099E9C1675C6BD0044252E /* UIKit.framework */; };
+		C7D6E49616C8B2C900ABB800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7099E9E1675C6BD0044252E /* Foundation.framework */; };
+		C7D6E49C16C8B2C900ABB800 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D6E49A16C8B2C900ABB800 /* InfoPlist.strings */; };
+		C7D6E49F16C8B2C900ABB800 /* TopPlacesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6E49E16C8B2C900ABB800 /* TopPlacesTest.m */; };
+		C7D6E4AB16C8C87600ABB800 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6E49316C8B2C900ABB800 /* SenTestingKit.framework */; };
+		C7D6E4AC16C8C87600ABB800 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7099E9C1675C6BD0044252E /* UIKit.framework */; };
+		C7D6E4AD16C8C87600ABB800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7099E9E1675C6BD0044252E /* Foundation.framework */; };
+		C7D6E4B316C8C87600ABB800 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D6E4B116C8C87600ABB800 /* InfoPlist.strings */; };
+		C7D6E4B616C8C87600ABB800 /* TopPlacesApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6E4B516C8C87600ABB800 /* TopPlacesApplicationTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7D6E4BB16C8CA3600ABB800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7099E8F1675C6BD0044252E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7099E971675C6BD0044252E;
+			remoteInfo = TopPlaces;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C7099E981675C6BD0044252E /* TopPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +93,19 @@
 		C7099EFE16ACF9EE0044252E /* PhotosMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosMapViewController.m; sourceTree = "<group>"; };
 		C7099F0016ACFA270044252E /* FlickrPhotoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoAnnotation.h; sourceTree = "<group>"; };
 		C7099F0116ACFA270044252E /* FlickrPhotoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoAnnotation.m; sourceTree = "<group>"; };
+		C7D6E49216C8B2C900ABB800 /* TopPlacesTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopPlacesTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D6E49316C8B2C900ABB800 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7D6E49916C8B2C900ABB800 /* TopPlacesTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopPlacesTest-Info.plist"; sourceTree = "<group>"; };
+		C7D6E49B16C8B2C900ABB800 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7D6E49D16C8B2C900ABB800 /* TopPlacesTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopPlacesTest.h; sourceTree = "<group>"; };
+		C7D6E49E16C8B2C900ABB800 /* TopPlacesTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopPlacesTest.m; sourceTree = "<group>"; };
+		C7D6E4A016C8B2C900ABB800 /* TopPlacesTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopPlacesTest-Prefix.pch"; sourceTree = "<group>"; };
+		C7D6E4AA16C8C87600ABB800 /* TopPlacesApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopPlacesApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D6E4B016C8C87600ABB800 /* TopPlacesApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopPlacesApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		C7D6E4B216C8C87600ABB800 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7D6E4B416C8C87600ABB800 /* TopPlacesApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopPlacesApplicationTests.h; sourceTree = "<group>"; };
+		C7D6E4B516C8C87600ABB800 /* TopPlacesApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopPlacesApplicationTests.m; sourceTree = "<group>"; };
+		C7D6E4B716C8C87600ABB800 /* TopPlacesApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopPlacesApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +121,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7D6E48E16C8B2C900ABB800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6E49416C8B2C900ABB800 /* SenTestingKit.framework in Frameworks */,
+				C7D6E49516C8B2C900ABB800 /* UIKit.framework in Frameworks */,
+				C7D6E49616C8B2C900ABB800 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D6E4A616C8C87600ABB800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6E4AB16C8C87600ABB800 /* SenTestingKit.framework in Frameworks */,
+				C7D6E4AC16C8C87600ABB800 /* UIKit.framework in Frameworks */,
+				C7D6E4AD16C8C87600ABB800 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,6 +150,8 @@
 				C7099EF816ACE4410044252E /* CoreLocation.framework */,
 				C7099EF616ACE43C0044252E /* MapKit.framework */,
 				C7099EA21675C6BD0044252E /* TopPlaces */,
+				C7D6E49716C8B2C900ABB800 /* TopPlacesTest */,
+				C7D6E4AE16C8C87600ABB800 /* TopPlacesApplicationTests */,
 				C7099E9B1675C6BD0044252E /* Frameworks */,
 				C7099E991675C6BD0044252E /* Products */,
 			);
@@ -106,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				C7099E981675C6BD0044252E /* TopPlaces.app */,
+				C7D6E49216C8B2C900ABB800 /* TopPlacesTest.octest */,
+				C7D6E4AA16C8C87600ABB800 /* TopPlacesApplicationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +173,7 @@
 				C7099E9C1675C6BD0044252E /* UIKit.framework */,
 				C7099E9E1675C6BD0044252E /* Foundation.framework */,
 				C7099EA01675C6BD0044252E /* CoreGraphics.framework */,
+				C7D6E49316C8B2C900ABB800 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,6 +226,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C7D6E49716C8B2C900ABB800 /* TopPlacesTest */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6E49D16C8B2C900ABB800 /* TopPlacesTest.h */,
+				C7D6E49E16C8B2C900ABB800 /* TopPlacesTest.m */,
+				C7D6E49816C8B2C900ABB800 /* Supporting Files */,
+			);
+			path = TopPlacesTest;
+			sourceTree = "<group>";
+		};
+		C7D6E49816C8B2C900ABB800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6E49916C8B2C900ABB800 /* TopPlacesTest-Info.plist */,
+				C7D6E49A16C8B2C900ABB800 /* InfoPlist.strings */,
+				C7D6E4A016C8B2C900ABB800 /* TopPlacesTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7D6E4AE16C8C87600ABB800 /* TopPlacesApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6E4B416C8C87600ABB800 /* TopPlacesApplicationTests.h */,
+				C7D6E4B516C8C87600ABB800 /* TopPlacesApplicationTests.m */,
+				C7D6E4AF16C8C87600ABB800 /* Supporting Files */,
+			);
+			path = TopPlacesApplicationTests;
+			sourceTree = "<group>";
+		};
+		C7D6E4AF16C8C87600ABB800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6E4B016C8C87600ABB800 /* TopPlacesApplicationTests-Info.plist */,
+				C7D6E4B116C8C87600ABB800 /* InfoPlist.strings */,
+				C7D6E4B716C8C87600ABB800 /* TopPlacesApplicationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,6 +285,43 @@
 			productName = TopPlaces;
 			productReference = C7099E981675C6BD0044252E /* TopPlaces.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C7D6E49116C8B2C900ABB800 /* TopPlacesTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D6E4A316C8B2C900ABB800 /* Build configuration list for PBXNativeTarget "TopPlacesTest" */;
+			buildPhases = (
+				C7D6E48D16C8B2C900ABB800 /* Sources */,
+				C7D6E48E16C8B2C900ABB800 /* Frameworks */,
+				C7D6E48F16C8B2C900ABB800 /* Resources */,
+				C7D6E49016C8B2C900ABB800 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopPlacesTest;
+			productName = TopPlacesTest;
+			productReference = C7D6E49216C8B2C900ABB800 /* TopPlacesTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C7D6E4A916C8C87600ABB800 /* TopPlacesApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D6E4B816C8C87600ABB800 /* Build configuration list for PBXNativeTarget "TopPlacesApplicationTests" */;
+			buildPhases = (
+				C7D6E4A516C8C87600ABB800 /* Sources */,
+				C7D6E4A616C8C87600ABB800 /* Frameworks */,
+				C7D6E4A716C8C87600ABB800 /* Resources */,
+				C7D6E4A816C8C87600ABB800 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7D6E4BC16C8CA3600ABB800 /* PBXTargetDependency */,
+			);
+			name = TopPlacesApplicationTests;
+			productName = TopPlacesApplicationTests;
+			productReference = C7D6E4AA16C8C87600ABB800 /* TopPlacesApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -211,6 +346,8 @@
 			projectRoot = "";
 			targets = (
 				C7099E971675C6BD0044252E /* TopPlaces */,
+				C7D6E49116C8B2C900ABB800 /* TopPlacesTest */,
+				C7D6E4A916C8C87600ABB800 /* TopPlacesApplicationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +367,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7D6E48F16C8B2C900ABB800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6E49C16C8B2C900ABB800 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D6E4A716C8C87600ABB800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6E4B316C8C87600ABB800 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7D6E49016C8B2C900ABB800 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		C7D6E4A816C8C87600ABB800 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7099E941675C6BD0044252E /* Sources */ = {
@@ -252,7 +434,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7D6E48D16C8B2C900ABB800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6E49F16C8B2C900ABB800 /* TopPlacesTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D6E4A516C8C87600ABB800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6E4B616C8C87600ABB800 /* TopPlacesApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7D6E4BC16C8CA3600ABB800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7099E971675C6BD0044252E /* TopPlaces */;
+			targetProxy = C7D6E4BB16C8CA3600ABB800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C7099EA51675C6BD0044252E /* InfoPlist.strings */ = {
@@ -277,6 +483,22 @@
 				C7099EB81675C6BD0044252E /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C7D6E49A16C8B2C900ABB800 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D6E49B16C8B2C900ABB800 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7D6E4B116C8C87600ABB800 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D6E4B216C8C87600ABB800 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -356,6 +578,70 @@
 			};
 			name = Release;
 		};
+		C7D6E4A116C8B2C900ABB800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopPlacesTest/TopPlacesTest-Prefix.pch";
+				INFOPLIST_FILE = "TopPlacesTest/TopPlacesTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C7D6E4A216C8B2C900ABB800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopPlacesTest/TopPlacesTest-Prefix.pch";
+				INFOPLIST_FILE = "TopPlacesTest/TopPlacesTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		C7D6E4B916C8C87600ABB800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TopPlaces.app/TopPlaces";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopPlacesApplicationTests/TopPlacesApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "TopPlacesApplicationTests/TopPlacesApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C7D6E4BA16C8C87600ABB800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TopPlaces.app/TopPlaces";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopPlacesApplicationTests/TopPlacesApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "TopPlacesApplicationTests/TopPlacesApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -376,6 +662,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C7D6E4A316C8B2C900ABB800 /* Build configuration list for PBXNativeTarget "TopPlacesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D6E4A116C8B2C900ABB800 /* Debug */,
+				C7D6E4A216C8B2C900ABB800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7D6E4B816C8C87600ABB800 /* Build configuration list for PBXNativeTarget "TopPlacesApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D6E4B916C8C87600ABB800 /* Debug */,
+				C7D6E4BA16C8C87600ABB800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
